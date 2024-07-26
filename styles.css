@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    background: rgb(240, 240, 240);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-block: 10px;
+}
+nav i {
+    margin-inline: 20px;
+}
+nav i {
+    cursor: pointer;
+}
+.banner {
+    margin-block: 50px;
+}
+.banner img {
+    width: 100%;
+}
+.heading {
+    padding-inline: 20px;
+}
+.heading h1 {
+    text-align: center;
+    font-weight: 500;
+}
+section {
+    margin-block: 20px;
+    padding: 20px;
+}
+section img {
+    margin-block: 20px;
+    width: 100%;
+}
+.text-images {
+    background: rgb(240, 240, 240);
+    padding: 20px;
+    margin-block: 50px;
+    box-shadow: 3px 3px 1px rgba(10, 10, 10, .1);
+}
+#gif {
+    width: 90px;
+    height: 90px;
+}
+.images {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+.text {
+    text-align: justify;
+}
+.text p {
+    font-size: .9rem;
+    margin-right: 10px;
+}
+.text span, span {
+    font-weight: bold;
+}
+.summary {
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+    background: darkblue;
+    color: white;
+    padding: 15px;
+}
+.summary img {
+    width: 80%;
+    margin-block: 30px;
+}
+.summary div {
+    line-height: 2em;
+    font-size: .9rem;
+}
+.summary p {
+    margin-block: 5px;
+}
+footer {
+    background: rgb(240, 240, 240);
+    padding: 25px;
+}
+footer h3 {
+    margin-bottom: 30px;
+}
+footer div {
+    margin-block: 10px;
+}
+.all-links a {
+    display: block;
+    font-size: .8rem;
+    margin-block: 4px;
+    text-decoration: none;
+}
+.link {
+    margin-block: 20px;
+}
+.three-images {
+    display: flex;
+    justify-content: center;
+    margin-block: 40px;
+}
+.three-images img {
+    width: 25%;
+    margin-inline: 10px;
+}
