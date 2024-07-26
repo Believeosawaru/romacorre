@@ -172,3 +172,10 @@ footer div {
     display: grid;
     justify-items: center;
 }
+.p-space h2 {
+    text-align: center;
+}
+.underline {
+    text-align: center;
+    text-decoration: underline;
+}
