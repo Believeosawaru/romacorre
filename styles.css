@@ -220,6 +220,10 @@ footer div {
 .temp-sec div:last-child {
     width: 120px;
 }
+.temp-sec div:first-child {
+    width: 160px;
+    margin-left: 0px;
+}
 .temp-sec div p:first-child {
     text-align: center;
 }
