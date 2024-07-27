@@ -215,7 +215,7 @@ footer div {
     margin-left: 0px;
 }
 #temp-sec img {
-    width: 100px;
+    width: 50px;
 }
 .temp-sec div p:first-child {
     text-align: center;
@@ -233,6 +233,7 @@ footer div {
 .gray {
     background: rgb(240, 240, 240);
     padding-block: 20px;
+    width: 100%;
 }
 ul {
     padding-inline: 10px;
