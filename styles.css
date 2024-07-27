@@ -105,6 +105,7 @@ footer div {
     font-size: .8rem;
     margin-block: 4px;
     text-decoration: none;
+    color: darkblue;
 }
 .link {
     margin-block: 20px;
@@ -154,8 +155,15 @@ footer div {
     grid-template-columns: auto auto;
     justify-items: center;
 }
+.three-row {
+    grid-template-columns: auto auto auto;
+}
+#three-row-img {
+    height: 140px;
+}
 .gallery img {
     width: 95%;
+    height: 200px;
 }
 .valley {
     background: rgb(240, 240, 240);
