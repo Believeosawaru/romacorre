@@ -22,6 +22,18 @@ nav i {
 nav i {
     cursor: pointer;
 }
+.menu {
+    position: absolute;
+}
+.siti-unesco-div {
+    display: none;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
 .banner {
     margin-block: 50px;
 }
@@ -76,8 +88,9 @@ section img {
     justify-items: center;
     background: darkblue;
     color: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
+    width: 90%;
 }
 .summary img {
     width: 80%;
@@ -116,7 +129,7 @@ footer div {
     margin-block: 40px;
 }
 .three-images img {
-    width: 25%;
+    width: 30%;
     margin-inline: 10px;
 }
 
@@ -163,7 +176,7 @@ footer div {
 }
 .gallery img {
     width: 95%;
-    height: 200px;
+    height: 170px;
 }
 .valley {
     background: rgb(240, 240, 240);
@@ -225,3 +238,53 @@ ul {
     padding-inline: 10px;
     margin-block: 10px;
 }
+#increase {
+    height: 200px;
+}
+
+@media screen and (min-width: 900px) {
+    .space-in {
+        padding-inline: 90px;
+    }
+    section img {
+        width: 60%;
+    }
+    .text-images {
+        height: 220px;
+    }
+    .long-text {
+        height: 260px;
+    }
+    .longer-text {
+        height: 300px;
+    }
+    .xxx-long {
+        height: 700px;
+    }
+    .short-text {
+        height: 140px;
+    }
+    .summary {
+        width: 70%;
+    }
+    .summary img {
+        width: 40%;
+    }
+    .three-images img {
+        width: 20%;
+        margin-inline: 20px;
+    }
+    #extra-height, #three-row-img {
+        height: 400px;
+    }
+    #increase {
+        height: 350px;
+        width: 60%;
+    }
+    #five-hundred {
+        height: 600px;
+    }
+    #three-hundred {
+        height: 500px;
+    }
+} 
