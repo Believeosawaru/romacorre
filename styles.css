@@ -124,13 +124,24 @@ footer div {
     margin-block: 20px;
 }
 .three-images {
-    display: flex;
-    justify-content: center;
     margin-block: 40px;
+    margin-inline: 80px;
 }
 .three-images img {
-    width: 30%;
+    width: 95%;
     margin-inline: 10px;
+    margin-block: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 1px 1px 0px #aaa;
+}
+.three {
+    display: grid;
+    align-items: center;
+}
+.two {
+    display: grid;
 }
 
 /* OTHER PAGES */
@@ -212,27 +223,25 @@ footer div {
 }
 #temp-sec .left {
     text-align: left;
-    margin-left: 0px;
+    margin-left: 30px;
 }
 .temp-sec img {
     width: 20px;
 }
-.temp-sec div:last-child {
-    width: 120px;
-}
 .temp-sec div:first-child {
     width: 160px;
-    margin-left: 0px;
 }
 .temp-sec div p:first-child {
     text-align: center;
+}
+.temp-sec div:last-child {
+    margin-left: 35px;
 }
 .temp-sec h3 {
     margin-bottom: 10px;
 }
 .temp-sec img {
     width: 200px;
-    margin-right: 20px;
 }
 #left-align {
     text-align: left;
@@ -293,5 +302,16 @@ ul {
     }
     #three-hundred {
         height: 500px;
+    }
+    .three {
+        grid-template-columns: auto auto auto;
+        margin-bottom: 60px;
+    }
+    .two {
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+    .three img, .two img {
+        width: 250px;
     }
 } 
