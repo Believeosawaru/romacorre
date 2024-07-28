@@ -313,10 +313,19 @@ ul {
     .three {
         grid-template-columns: auto auto auto;
         margin-bottom: 60px;
+        align-items: center;
+        justify-items: center;
     }
     .two {
         grid-template-columns: auto auto;
         justify-items: center;
+        align-items: center;
+    }
+    .two img:first-child {
+        margin-right: -100px;
+    }
+    .two img:last-child {
+        margin-left: -100px;
     }
     .three img, .two img {
         width: 250px;
