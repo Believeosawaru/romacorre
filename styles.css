@@ -141,6 +141,9 @@ footer div {
     display: grid;
     align-items: center;
 }
+.three a:first-child {
+    background: black;
+}
 .two {
     display: grid;
 }
